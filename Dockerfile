@@ -3,7 +3,7 @@ FROM alpine
 RUN mkdir -p /opt
 WORKDIR /opt
 
-ARG sdk_url
+ARG sdk_url="https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/google-cloud-sdk-323.0.0-linux-x86_64.tar.gz"
 
 RUN apk update && apk upgrade && apk add --no-cache curl git
 RUN apk add --no-cache bash
