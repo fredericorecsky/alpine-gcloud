@@ -23,7 +23,7 @@ On your cloud to have a tooling/ops machine
 ## Docker Hub
 
 This image is publically available on docker hub:
-    https://hub.docker.com/repository/docker/fredericorecsky/alpine-gcloud
+    https://hub.docker.com/r/fredericorecsky/alpine-gcloud
 
 If you want to push yourself on dockerhub using the gcp cloud build you need
 to authenticate on docker hub as described here (https://cloud.google.com/cloud-build/docs/interacting-with-dockerhub-images#authenticating_your_docker_hub_account)
